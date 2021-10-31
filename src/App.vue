@@ -26,5 +26,6 @@ export default {
   /* webpack引入样式使用别名需要以 '~别名'的形式，
      '~'作用是让webpack从根目录开始查找[webpack默认从当前路径开始查找] 
   */
-  @import '~@assets/css/base.css'
+  @import '~@assets/css/base.css';
+
 </style>

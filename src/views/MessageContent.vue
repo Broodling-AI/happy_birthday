@@ -2,15 +2,16 @@
   <div id='message-content'>
     <div class="ribbon"></div>
     <div class="content">
-      <h2 class="title">To Loser:</h2>
+      <h2 class="title">To my dear Teacher:</h2>
       <div class="celeration-content">
-        <p>每个人的青春都不一样，有的疯狂，</p>
-        <p>有的纯粹。但每个人的青春又是一样</p>
-        <p>的，投入去爱，投入去拼，投入去忧</p>
-        <p>愁 ，投入去证明自己。</p>
-        <p>不要让未来的自己失望。</p>
-        <p>加油！</p>
+        <p>师风如月，洁净明亮；</p>
+        <p>师韵如诗，愈久弥芳；</p>
+        <p>师品如兰，淡雅清香；</p>
+        <p>师德如泉，清澈沁人；</p>
+        <p>师恩如山，义重情深；</p>
+        <p>周老师，生日快乐！</p>
       </div>
+      
     </div>
   </div>
 </template>
@@ -22,7 +23,7 @@ export default {
     let _this = this;
     setTimeout(() => {
       _this.$router.push('/wish')
-    },16000)
+    },25000)
   }
 }
 </script>
@@ -97,22 +98,22 @@ export default {
           animation: together 3s steps(16) 8.3s forwards;
         }
         &:nth-child(4) {
-          margin-left: 108px;
-          text-align: left;
+          // margin-left: 108px;
+          // text-align: left;
           animation: together 3s steps(10) 11.3s forwards;
         }
         &:nth-child(5) {
-          margin-left: 85px;
-          text-align: left;
-          animation: together 3s steps(11) 13s forwards;
+          // margin-left: 85px;
+          // text-align: left;
+          animation: together 3s steps(11) 14.3s forwards;
         }
         &:last-child {
-          margin-left: 205px;
-          text-align: left;
+          // margin-left: 205px;
+          // text-align: left;
           margin-top: 15px;
-          font-size: 40px;
-          font-weight: 700;
-          animation: together 1s steps(8) 15s forwards;
+          font-size: 30px;
+          font-weight: 600;
+          animation: together 3s steps(8) 17.3s forwards;
         }
       }
     }

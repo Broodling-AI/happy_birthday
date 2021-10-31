@@ -47,7 +47,7 @@ const routes = [
 const router = new VueRouter({
   routes,
   // 因为gitee pages不支持history模式，因此使用hash模式
-  // mode: 'history'
+  mode: 'history'
 })
 
 // 导出路由

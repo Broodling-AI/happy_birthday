@@ -14,7 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Broodling-AI/happy_birthday.git main:gh-pages
+git push -f git@github.com:Broodling-AI/happy_birthday.git master:gh-pages
 
 cd -
 
